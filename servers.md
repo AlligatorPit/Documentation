@@ -1,4 +1,4 @@
-# Dedicated Servers
+## Installing
 
 The dedicated server can be installed either via [Steam CMD](https://developer.valvesoftware.com/wiki/SteamCMD) or via the Steam client itself.
 
