@@ -6,7 +6,7 @@ If you're installing the dedicated server via Steam CMD, the AppID for the dedic
 
 Otherwise, you can get the dedicated server via the Steam client, under the *Tools* tab.
 
-# Configuring
+## Configuring
 
 First of all, you need to have a server configuration. A configuration is a folder of `.ini` files that define the properties. These configurations are actually scripts, which run on the internal shell, which is basically the same as the in-game console.
 
@@ -48,7 +48,7 @@ This file is executed at the beginning of the round, before the level loads on t
 
 Executed at the end of the round. This could be used (for example) to tell clients what map is going to be played next. However, it's not recommended you use these files for actual scripting, but instead use script addons written in Bromscript. Therefore, it's suggested you keep this file empty, or simply not modify the default example scripts if you so wish.
 
-# Addons
+## Addons
 
 Addons are scripts written in Bromscript that can get executed by the game or the server. By default, Revolution ships with the "CCC", the "Combative Creature Cutter".
 
