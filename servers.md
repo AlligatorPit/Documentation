@@ -23,7 +23,7 @@ Bin/DedicatedServer.exe MyAwesomeCoopServer
 
 ### init.ini
 
-In the example above, we copied `DefualtCoop` to `MyAwesomeCoopServer`. In that folder, there is an `init.ini` file, which is the most important file in your configuration. This is where you'll set most of the server properties.
+In the example above, we copied `DefaultCoop` to `MyAwesomeCoopServer`. In that folder, there is an `init.ini` file, which is the most important file in your configuration. This is where you'll set most of the server properties.
 
 The default file has comments explaining most of the options, but here's a list of a few noteworthy ones:
 
