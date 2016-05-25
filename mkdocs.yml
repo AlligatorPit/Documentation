@@ -5,4 +5,4 @@ pages:
 - Scripting:
   - Introduction: scripting.md
   - Reference:
-    - Entities: entities/
+    - Entities: entities/*.md
