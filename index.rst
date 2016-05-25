@@ -11,5 +11,5 @@ Contributions to the documentation can be submitted on `Github <https://github.c
 .. toctree::
    :maxdepth: 2
 
-   servers
-   scripting
+   Dedicated Server <servers>
+   Scripting <scripting>
