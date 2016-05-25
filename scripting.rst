@@ -9,6 +9,16 @@ Script entity
 -------------
 The script entity in-game lets you execute scripts when the entity is triggered. These scripts can reference other entities and change their properties.
 
+Script handles
+--------------
+These is where most of the API resides.
+
+.. toctree::
+   :maxdepth: 1
+   :glob:
+
+   handles/*
+
 Entity classes
 --------------
 These are all the entity classes that are approachable by scripts.
