@@ -7,3 +7,8 @@ Script entity
 =============
 
 The script entity in-game lets you execute scripts when the entity is triggered. These scripts can reference other entities and change their properties.
+
+.. toctree::
+   :maxdepth: 2
+
+   entities/*.rst
