@@ -1,12 +1,9 @@
 CPlayer
 =======
 
-Inherits: `CPlayerEntity <CPlayerEntity>`_
+Inherits: `CPlayerEntity <CPlayerEntity.html>`_
 
-Description
------------
-
-n/a
+.. include:: ../entities_info/CPlayer.rst
 
 Members
 -------

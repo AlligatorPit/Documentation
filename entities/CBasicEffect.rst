@@ -1,10 +1,7 @@
 CBasicEffect
 ============
 
-Description
------------
-
-n/a
+.. include:: ../entities_info/CBasicEffect.rst
 
 Members
 -------

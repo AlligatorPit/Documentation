@@ -1,10 +1,7 @@
 CBloodSpray
 ===========
 
-Description
------------
-
-n/a
+.. include:: ../entities_info/CBloodSpray.rst
 
 Members
 -------

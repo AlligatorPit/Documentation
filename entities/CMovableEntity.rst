@@ -1,10 +1,7 @@
 CMovableEntity
 ==============
 
-Description
------------
-
-n/a
+.. include:: ../entities_info/CMovableEntity.rst
 
 Members
 -------

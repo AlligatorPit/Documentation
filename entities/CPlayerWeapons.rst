@@ -1,10 +1,7 @@
 CPlayerWeapons
 ==============
 
-Description
------------
-
-n/a
+.. include:: ../entities_info/CPlayerWeapons.rst
 
 Members
 -------

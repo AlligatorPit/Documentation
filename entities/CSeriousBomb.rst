@@ -1,10 +1,7 @@
 CSeriousBomb
 ============
 
-Description
------------
-
-n/a
+.. include:: ../entities_info/CSeriousBomb.rst
 
 Members
 -------

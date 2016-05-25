@@ -1,12 +1,9 @@
 CWeaponItem
 ===========
 
-Inherits: `CItem <CItem>`_
+Inherits: `CItem <CItem.html>`_
 
-Description
------------
-
-n/a
+.. include:: ../entities_info/CWeaponItem.rst
 
 Members
 -------

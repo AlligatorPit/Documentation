@@ -1,12 +1,9 @@
 CMovableModelEntity
 ===================
 
-Inherits: `CMovableEntity <CMovableEntity>`_
+Inherits: `CMovableEntity <CMovableEntity.html>`_
 
-Description
------------
-
-n/a
+.. include:: ../entities_info/CMovableModelEntity.rst
 
 Members
 -------

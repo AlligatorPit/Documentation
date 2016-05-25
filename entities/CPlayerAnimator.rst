@@ -1,10 +1,7 @@
 CPlayerAnimator
 ===============
 
-Description
------------
-
-n/a
+.. include:: ../entities_info/CPlayerAnimator.rst
 
 Members
 -------

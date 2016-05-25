@@ -1,10 +1,7 @@
 CLight
 ======
 
-Description
------------
-
-n/a
+.. include:: ../entities_info/CLight.rst
 
 Members
 -------

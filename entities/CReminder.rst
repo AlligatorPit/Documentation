@@ -1,10 +1,7 @@
 CReminder
 =========
 
-Description
------------
-
-n/a
+.. include:: ../entities_info/CReminder.rst
 
 Members
 -------

@@ -1,12 +1,9 @@
 CItem
 =====
 
-Inherits: `CMovableModelEntity <CMovableModelEntity>`_
+Inherits: `CMovableModelEntity <CMovableModelEntity.html>`_
 
-Description
------------
-
-n/a
+.. include:: ../entities_info/CItem.rst
 
 Members
 -------

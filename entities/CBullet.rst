@@ -1,10 +1,7 @@
 CBullet
 =======
 
-Description
------------
-
-n/a
+.. include:: ../entities_info/CBullet.rst
 
 Members
 -------
