@@ -5,6 +5,6 @@ Revolution Documentation
 
 This is the scripting API documentation for Serious Sam Classics: Revolution.
 
-The documentation can be found on `docs.samrev.com <https://docs.samrev.com/>`_.
+The documentation can be found on `docs.samrev.com <http://docs.samrev.com/>`_.
 
 Feel free to do pull requests to add or modify existing things.
