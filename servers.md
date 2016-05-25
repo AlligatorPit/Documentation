@@ -4,7 +4,7 @@ The dedicated server can be installed either via [Steam CMD](https://developer.v
 
 If you're installing the dedicated server via Steam CMD, the AppID for the dedicated server is `299310`.
 
-Otherwise, you can get the dedicated server via the Steam client, under the *Tools* tab.
+Otherwise, you can get the dedicated server via the Steam client, under the *Tools* tab. It will be located in the `steamapps` folder, under `Serious Sam Revolution/Bin/DedicatedServer.exe`.
 
 ## Configuring
 
