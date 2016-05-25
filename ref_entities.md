@@ -63,7 +63,7 @@
 
 ## CProjectile
 
-Inherits: `CMovableModelEntity`
+Inherits: [CMovableModelEntity](#cmovablemodelentity)
 
 ### Members
 * readonly `m_penLauncher`
@@ -99,11 +99,11 @@ Inherits: `CMovableModelEntity`
 * readonly `m_iTeam`
 * readonly `m_penPrediction`
 
-### Members inherited from `CMovableModelEntity`
+### Members inherited from CMovableModelEntity
 * readonly `en_iCollisionBox`
 * readonly `en_iWantedCollisionBox`
 
-### Members inherited from `CMovableEntity`
+### Members inherited from CMovableEntity
 * vec3 `en_vDesiredTranslationRelative`
 * vec3 `en_aDesiredRotationRelative`
 * vec3 `en_vCurrentTranslationAbsolute`
@@ -152,13 +152,13 @@ Inherits: `CMovableModelEntity`
 
 ## CMovableModelEntity
 
-Inherits: `CMovableEntity`
+Inherits: [CMovableEntity](#cmovableentity)
 
 ### Members
 * readonly `en_iCollisionBox`
 * readonly `en_iWantedCollisionBox`
 
-### Members inherited from `CMovableEntity`
+### Members inherited from CMovableEntity
 * vec3 `en_vDesiredTranslationRelative`
 * vec3 `en_aDesiredRotationRelative`
 * vec3 `en_vCurrentTranslationAbsolute`
@@ -275,7 +275,7 @@ Inherits: `CMovableEntity`
 
 ## CFlame
 
-Inherits: `CMovableModelEntity`
+Inherits: [CMovableModelEntity](#cmovablemodelentity)
 
 ### Members
 * readonly `m_penOwner`
@@ -304,11 +304,11 @@ Inherits: `CMovableModelEntity`
 * float `m_tmDeathParticlesStart`
 * readonly `m_penPrediction`
 
-### Members inherited from `CMovableModelEntity`
+### Members inherited from CMovableModelEntity
 * readonly `en_iCollisionBox`
 * readonly `en_iWantedCollisionBox`
 
-### Members inherited from `CMovableEntity`
+### Members inherited from CMovableEntity
 * vec3 `en_vDesiredTranslationRelative`
 * vec3 `en_aDesiredRotationRelative`
 * vec3 `en_vCurrentTranslationAbsolute`
@@ -372,14 +372,14 @@ Inherits: `CMovableModelEntity`
 
 ## CPlayerWeaponsEffects
 
-Inherits: `CMovableEntity`
+Inherits: [CMovableEntity](#cmovableentity)
 
 ### Members
 * readonly `m_penOwner`
 * readonly `m_EwetEffect`
 * readonly `m_penPrediction`
 
-### Members inherited from `CMovableEntity`
+### Members inherited from CMovableEntity
 * vec3 `en_vDesiredTranslationRelative`
 * vec3 `en_aDesiredRotationRelative`
 * vec3 `en_vCurrentTranslationAbsolute`
@@ -428,7 +428,7 @@ Inherits: `CMovableEntity`
 
 ## CGhostBusterRay
 
-Inherits: `CMovableModelEntity`
+Inherits: [CMovableModelEntity](#cmovablemodelentity)
 
 ### Members
 * readonly `m_penOwner`
@@ -442,11 +442,11 @@ Inherits: `CMovableModelEntity`
 * readonly `m_ctPasses`
 * readonly `m_penPrediction`
 
-### Members inherited from `CMovableModelEntity`
+### Members inherited from CMovableModelEntity
 * readonly `en_iCollisionBox`
 * readonly `en_iWantedCollisionBox`
 
-### Members inherited from `CMovableEntity`
+### Members inherited from CMovableEntity
 * vec3 `en_vDesiredTranslationRelative`
 * vec3 `en_aDesiredRotationRelative`
 * vec3 `en_vCurrentTranslationAbsolute`
@@ -495,7 +495,7 @@ Inherits: `CMovableModelEntity`
 
 ## CCannonBall
 
-Inherits: `CMovableModelEntity`
+Inherits: [CMovableModelEntity](#cmovablemodelentity)
 
 ### Members
 * readonly `m_penLauncher`
@@ -517,11 +517,11 @@ Inherits: `CMovableModelEntity`
 * bool `m_bCheatedLifetime`
 * float `m_fCheatedLifetimeValue`
 
-### Members inherited from `CMovableModelEntity`
+### Members inherited from CMovableModelEntity
 * readonly `en_iCollisionBox`
 * readonly `en_iWantedCollisionBox`
 
-### Members inherited from `CMovableEntity`
+### Members inherited from CMovableEntity
 * vec3 `en_vDesiredTranslationRelative`
 * vec3 `en_aDesiredRotationRelative`
 * vec3 `en_vCurrentTranslationAbsolute`
@@ -570,7 +570,7 @@ Inherits: `CMovableModelEntity`
 
 ## CItem
 
-Inherits: `CMovableModelEntity`
+Inherits: [CMovableModelEntity](#cmovablemodelentity)
 
 ### Members
 * string `m_strName`
@@ -593,11 +593,11 @@ Inherits: `CMovableModelEntity`
 * bool `m_bOnlyCoop`
 * readonly `m_penPrediction`
 
-### Members inherited from `CMovableModelEntity`
+### Members inherited from CMovableModelEntity
 * readonly `en_iCollisionBox`
 * readonly `en_iWantedCollisionBox`
 
-### Members inherited from `CMovableEntity`
+### Members inherited from CMovableEntity
 * vec3 `en_vDesiredTranslationRelative`
 * vec3 `en_aDesiredRotationRelative`
 * vec3 `en_vCurrentTranslationAbsolute`
@@ -646,13 +646,13 @@ Inherits: `CMovableModelEntity`
 
 ## CWeaponItem
 
-Inherits: `CItem`
+Inherits: [CItem](#citem)
 
 ### Members
 * readonly `m_EwitType`
 * readonly `m_iAmmoAmount`
 
-### Members inherited from `CItem`
+### Members inherited from CItem
 * string `m_strName`
 * string `m_strDescription`
 * float `m_fValue`
@@ -673,11 +673,11 @@ Inherits: `CItem`
 * bool `m_bOnlyCoop`
 * readonly `m_penPrediction`
 
-### Members inherited from `CMovableModelEntity`
+### Members inherited from CMovableModelEntity
 * readonly `en_iCollisionBox`
 * readonly `en_iWantedCollisionBox`
 
-### Members inherited from `CMovableEntity`
+### Members inherited from CMovableEntity
 * vec3 `en_vDesiredTranslationRelative`
 * vec3 `en_aDesiredRotationRelative`
 * vec3 `en_vCurrentTranslationAbsolute`
@@ -726,7 +726,7 @@ Inherits: `CItem`
 
 ## CEnergyMine
 
-Inherits: `CMovableModelEntity`
+Inherits: [CMovableModelEntity](#cmovablemodelentity)
 
 ### Members
 * readonly `m_penLauncher`
@@ -739,11 +739,11 @@ Inherits: `CMovableModelEntity`
 * readonly `m_soDetonating`
 * readonly `m_penPrediction`
 
-### Members inherited from `CMovableModelEntity`
+### Members inherited from CMovableModelEntity
 * readonly `en_iCollisionBox`
 * readonly `en_iWantedCollisionBox`
 
-### Members inherited from `CMovableEntity`
+### Members inherited from CMovableEntity
 * vec3 `en_vDesiredTranslationRelative`
 * vec3 `en_aDesiredRotationRelative`
 * vec3 `en_vCurrentTranslationAbsolute`
@@ -937,7 +937,7 @@ Inherits: `CMovableModelEntity`
 
 ## CPlayerView
 
-Inherits: `CMovableEntity`
+Inherits: [CMovableEntity](#cmovableentity)
 
 ### Members
 * readonly `m_penOwner`
@@ -948,7 +948,7 @@ Inherits: `CMovableEntity`
 * bool `m_bFixed`
 * readonly `m_penPrediction`
 
-### Members inherited from `CMovableEntity`
+### Members inherited from CMovableEntity
 * vec3 `en_vDesiredTranslationRelative`
 * vec3 `en_aDesiredRotationRelative`
 * vec3 `en_vCurrentTranslationAbsolute`
@@ -1005,7 +1005,7 @@ Inherits: `CMovableEntity`
 
 ## CPlayer
 
-Inherits: `CPlayerEntity`
+Inherits: [CPlayerEntity](#cplayerentity)
 
 ### Members
 * string `m_strName`
@@ -1158,17 +1158,17 @@ Inherits: `CPlayerEntity`
 * bool `m_bWaitingForNextRound`
 * readonly `m_penPrediction`
 
-### Members inherited from `CPlayerEntity`
+### Members inherited from CPlayerEntity
 * float `en_tmPing`
 * readonly `en_ulSteamID`
 * string `en_strSteamName`
 * float `en_fDamageDealt`
 
-### Members inherited from `CMovableModelEntity`
+### Members inherited from CMovableModelEntity
 * readonly `en_iCollisionBox`
 * readonly `en_iWantedCollisionBox`
 
-### Members inherited from `CMovableEntity`
+### Members inherited from CMovableEntity
 * vec3 `en_vDesiredTranslationRelative`
 * vec3 `en_aDesiredRotationRelative`
 * vec3 `en_vCurrentTranslationAbsolute`
@@ -1217,7 +1217,7 @@ Inherits: `CPlayerEntity`
 
 ## CPlayerEntity
 
-Inherits: `CMovableModelEntity`
+Inherits: [CMovableModelEntity](#cmovablemodelentity)
 
 ### Members
 * float `en_tmPing`
@@ -1225,11 +1225,11 @@ Inherits: `CMovableModelEntity`
 * string `en_strSteamName`
 * float `en_fDamageDealt`
 
-### Members inherited from `CMovableModelEntity`
+### Members inherited from CMovableModelEntity
 * readonly `en_iCollisionBox`
 * readonly `en_iWantedCollisionBox`
 
-### Members inherited from `CMovableEntity`
+### Members inherited from CMovableEntity
 * vec3 `en_vDesiredTranslationRelative`
 * vec3 `en_aDesiredRotationRelative`
 * vec3 `en_vCurrentTranslationAbsolute`
