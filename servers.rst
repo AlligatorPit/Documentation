@@ -1,6 +1,8 @@
+Dedicated Server
+================
+
 Installing
 ----------
-
 The dedicated server can be installed either via `Steam CMD <https://developer.valvesoftware.com/wiki/SteamCMD>`_ or via the Steam client itself.
 
 If you're installing the dedicated server via Steam CMD, the AppID for the dedicated server is ``299310``.
@@ -9,7 +11,6 @@ Alternatively, you can get the dedicated server via the Steam client, under the 
 
 Configuring
 -----------
-
 First of all, you need to have a server configuration. A configuration is a folder of ``.ini`` files that define the properties. These configurations are actually scripts, which run on the internal shell, which is basically the same as the in-game console.
 
 Each configuration has its own folder in the ``Scripts/Dedicated/`` folder. You can see that there are already a few default configurations that we ship, but we don't recommend using them directly. You can use the folders as a template for your own server, however.
@@ -23,7 +24,6 @@ You could make a batch file for this for convenience:::
 
 init.ini
 ^^^^^^^^
-
 In the example above, we copied ``DefaultCoop`` to ``MyAwesomeCoopServer``. In that folder, there is an ``init.ini`` file, which is the most important file in your configuration. This is where you'll set most of the server properties.
 
 The default file has comments explaining most of the options, but here's a list of a few noteworthy ones:
@@ -43,20 +43,16 @@ Some helpful variables that are not included with the default configurations are
 
 n_begin.ini
 ^^^^^^^^^^^
-
 This file is executed at the beginning of the round, before the level loads on the server. This means that you can put ``ded_strLevel = "...";`` here to load a different level. This is normally only useful in versus gamemodes. By making several files, such as ``1_begin.ini``, ``2_begin.ini``, ``3_begin.ini``, ..., you can define a list of levels that will be played through on the server.
 
 n_end.ini
 ^^^^^^^^^
-
 Executed at the end of the round. This could be used (for example) to tell clients what map is going to be played next. However, it's not recommended you use these files for actual scripting, but instead use script addons written in Bromscript. Therefore, it's suggested you keep this file empty, or simply not modify the default example scripts if you so wish.
 
 Addons
 ------
-
 Addons are scripts written in Bromscript that can get executed by the game or the server. By default, Revolution ships with the "CCC", the "Combative Creature Cutter".
 
 CCC (Combative Creature Cutter)
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-
 Todo...
