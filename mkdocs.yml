@@ -2,3 +2,7 @@ site_name: Revolution
 pages:
 - Home: index.md
 - 'Dedicated Server': 'servers.md'
+- Scripting:
+  - Introduction: scripting.md
+  - Reference:
+    - Entities: ref_entities.md
