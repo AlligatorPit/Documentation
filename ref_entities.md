@@ -1,5 +1,6 @@
 # Entity classes
-## `CBasicEffect`
+
+## CBasicEffect
 
 ### Members
 * readonly `m_betType`
@@ -26,7 +27,9 @@
 * vec3 `m_vGravity`
 * readonly `m_penPrediction`
 
-## `CLight`
+---
+
+## CLight
 
 ### Members
 * readonly `m_colColor`
@@ -56,7 +59,9 @@
 * readonly `m_iAmbientLightAnimation`
 * readonly `m_aoAmbientLightAnimation`
 
-## `CProjectile`
+---
+
+## CProjectile
 
 Inherits: `CMovableModelEntity`
 
@@ -143,7 +148,9 @@ Inherits: `CMovableModelEntity`
 * float `en_tmFrozenSeconds`
 * float `en_tmFrozenMinimum`
 
-## `CMovableModelEntity`
+---
+
+## CMovableModelEntity
 
 Inherits: `CMovableEntity`
 
@@ -196,7 +203,9 @@ Inherits: `CMovableEntity`
 * float `en_tmFrozenSeconds`
 * float `en_tmFrozenMinimum`
 
-## `CMovableEntity`
+---
+
+## CMovableEntity
 
 ### Members
 * vec3 `en_vDesiredTranslationRelative`
@@ -243,7 +252,9 @@ Inherits: `CMovableEntity`
 * float `en_tmFrozenSeconds`
 * float `en_tmFrozenMinimum`
 
-## `CBloodSpray`
+---
+
+## CBloodSpray
 
 ### Members
 * readonly `m_sptType`
@@ -260,7 +271,9 @@ Inherits: `CMovableEntity`
 * readonly `m_colBurnColor`
 * readonly `m_penPrediction`
 
-## `CFlame`
+---
+
+## CFlame
 
 Inherits: `CMovableModelEntity`
 
@@ -340,7 +353,9 @@ Inherits: `CMovableModelEntity`
 * float `en_tmFrozenSeconds`
 * float `en_tmFrozenMinimum`
 
-## `CBullet`
+---
+
+## CBullet
 
 ### Members
 * readonly `m_penOwner`
@@ -353,7 +368,9 @@ Inherits: `CMovableModelEntity`
 * float `m_fBulletSize`
 * readonly `m_iBatchID`
 
-## `CPlayerWeaponsEffects`
+---
+
+## CPlayerWeaponsEffects
 
 Inherits: `CMovableEntity`
 
@@ -407,7 +424,9 @@ Inherits: `CMovableEntity`
 * float `en_tmFrozenSeconds`
 * float `en_tmFrozenMinimum`
 
-## `CGhostBusterRay`
+---
+
+## CGhostBusterRay
 
 Inherits: `CMovableModelEntity`
 
@@ -472,7 +491,9 @@ Inherits: `CMovableModelEntity`
 * float `en_tmFrozenSeconds`
 * float `en_tmFrozenMinimum`
 
-## `CCannonBall`
+---
+
+## CCannonBall
 
 Inherits: `CMovableModelEntity`
 
@@ -545,7 +566,9 @@ Inherits: `CMovableModelEntity`
 * float `en_tmFrozenSeconds`
 * float `en_tmFrozenMinimum`
 
-## `CItem`
+---
+
+## CItem
 
 Inherits: `CMovableModelEntity`
 
@@ -619,7 +642,9 @@ Inherits: `CMovableModelEntity`
 * float `en_tmFrozenSeconds`
 * float `en_tmFrozenMinimum`
 
-## `CWeaponItem`
+---
+
+## CWeaponItem
 
 Inherits: `CItem`
 
@@ -697,7 +722,9 @@ Inherits: `CItem`
 * float `en_tmFrozenSeconds`
 * float `en_tmFrozenMinimum`
 
-## `CEnergyMine`
+---
+
+## CEnergyMine
 
 Inherits: `CMovableModelEntity`
 
@@ -761,7 +788,9 @@ Inherits: `CMovableModelEntity`
 * float `en_tmFrozenSeconds`
 * float `en_tmFrozenMinimum`
 
-## `CPlayerWeapons`
+---
+
+## CPlayerWeapons
 
 ### Members
 * readonly `m_penPlayer`
@@ -854,14 +883,18 @@ Inherits: `CMovableModelEntity`
 * float `m_fMinigunTickTime`
 * readonly `m_penPrediction`
 
-## `CReminder`
+---
+
+## CReminder
 
 ### Members
 * readonly `m_penOwner`
 * float `m_fWaitTime`
 * readonly `m_iValue`
 
-## `CPlayerAnimator`
+---
+
+## CPlayerAnimator
 
 ### Members
 * readonly `m_penPlayer`
@@ -900,7 +933,9 @@ Inherits: `CMovableModelEntity`
 * float `m_fBodyAnimTime`
 * readonly `m_penPrediction`
 
-## `CPlayerView`
+---
+
+## CPlayerView
 
 Inherits: `CMovableEntity`
 
@@ -958,13 +993,17 @@ Inherits: `CMovableEntity`
 * float `en_tmFrozenSeconds`
 * float `en_tmFrozenMinimum`
 
-## `CSeriousBomb`
+---
+
+## CSeriousBomb
 
 ### Members
 * readonly `m_penOwner`
 * readonly `m_soBlow`
 
-## `CPlayer`
+---
+
+## CPlayer
 
 Inherits: `CPlayerEntity`
 
@@ -1174,7 +1213,9 @@ Inherits: `CPlayerEntity`
 * float `en_tmFrozenSeconds`
 * float `en_tmFrozenMinimum`
 
-## `CPlayerEntity`
+---
+
+## CPlayerEntity
 
 Inherits: `CMovableModelEntity`
 
@@ -1232,4 +1273,6 @@ Inherits: `CMovableModelEntity`
 * float `en_tmLastFrozen`
 * float `en_tmFrozenSeconds`
 * float `en_tmFrozenMinimum`
+
+---
 
