@@ -5,4 +5,25 @@ pages:
 - Scripting:
   - Introduction: scripting.md
   - Reference:
-    - Entities
+    - Entities:
+      - CBasicEffect: entities/CBasicEffect.md
+      - CLight: entities/CLight.md
+      - CProjectile: entities/CProjectile.md
+      - CMovableModelEntity: entities/CMovableModelEntity.md
+      - CMovableEntity: entities/CMovableEntity.md
+      - CBloodSpray: entities/CBloodSpray.md
+      - CFlame: entities/CFlame.md
+      - CBullet: entities/CBullet.md
+      - CPlayerWeaponsEffects: entities/CPlayerWeaponsEffects.md
+      - CGhostBusterRay: entities/CGhostBusterRay.md
+      - CCannonBall: entities/CCannonBall.md
+      - CItem: entities/CItem.md
+      - CWeaponItem: entities/CWeaponItem.md
+      - CEnergyMine: entities/CEnergyMine.md
+      - CPlayerWeapons: entities/CPlayerWeapons.md
+      - CReminder: entities/CReminder.md
+      - CPlayerAnimator: entities/CPlayerAnimator.md
+      - CPlayerView: entities/CPlayerView.md
+      - CSeriousBomb: entities/CSeriousBomb.md
+      - CPlayer: entities/CPlayer.md
+      - CPlayerEntity: entities/CPlayerEntity.md
