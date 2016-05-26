@@ -9,6 +9,12 @@ Script entity
 -------------
 The script entity in-game lets you execute scripts when the entity is triggered. These scripts can reference other entities and change their properties.
 
+A simple example would be something like::
+
+	local ent = Entities.GetByName("Some Gnaar")
+	print(ent)
+	ent.m_fMoveSpeed = 10
+
 Entity classes
 --------------
 These are all the entity classes that are approachable by scripts.
