@@ -15,6 +15,16 @@ A simple example would be something like::
 	print(ent)
 	ent.m_fMoveSpeed = 10
 
+Script handles
+--------------
+These is where most of the API resides.
+
+.. toctree::
+   :maxdepth: 1
+   :glob:
+
+   handles/*
+
 Entity classes
 --------------
 These are all the entity classes that are approachable by scripts.
