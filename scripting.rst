@@ -9,11 +9,10 @@ Script entity
 -------------
 The script entity in-game lets you execute scripts when the entity is triggered. These scripts can reference other entities and change their properties.
 
-A simple example would be something like::
+A simple example that doubles a Gnaar's run speed would be something like::
 
 	local ent = Entities.GetByName("Some Gnaar")
-	print(ent)
-	ent.m_fMoveSpeed = 10
+	ent.m_fAttackRunSpeed *= 2
 
 Script handles
 --------------
